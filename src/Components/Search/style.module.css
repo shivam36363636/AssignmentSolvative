@@ -4,7 +4,8 @@
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
   padding: 6px 12px;
-  display: flex;
+  padding-right: 24px;
+  position: relative;
 }
 .main input {
   border: none;
@@ -19,4 +20,13 @@
   font-size: 12px;
   border-radius: 2px;
   padding: 4px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.focus {
+  border-color: #7952b3;
+  box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
 }
